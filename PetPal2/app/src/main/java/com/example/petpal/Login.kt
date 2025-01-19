@@ -1,16 +1,20 @@
 package com.example.petpal
 
 import androidx.compose.foundation.Image
+import androidx.compose.foundation.border
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
+import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxHeight
+import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.offset
 import androidx.compose.foundation.layout.safeDrawingPadding
 import androidx.compose.foundation.layout.size
+import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material3.Button
@@ -21,9 +25,12 @@ import androidx.compose.material3.TextFieldDefaults
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.draw.shadow
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.text.TextStyle
+import androidx.compose.ui.text.font.FontWeight
+import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
@@ -38,8 +45,7 @@ fun LoginScreen() {
             .fillMaxHeight()
             .fillMaxWidth()
             .safeDrawingPadding(),
-        verticalArrangement = Arrangement.Top,
-        horizontalAlignment = Alignment.CenterHorizontally
+        verticalArrangement = Arrangement.Top
     ) {
         Box(
             modifier = Modifier
@@ -72,30 +78,58 @@ fun LoginScreen() {
                     .height(360.dp),
                 alignment = Alignment.TopStart
             )
-        }
 
+            Button(onClick = {},
+                shape = CircleShape,
+                colors = ButtonDefaults.buttonColors(
+                    containerColor = smth_orange,
+                    contentColor = smth_orange
+                ),
+                modifier = Modifier
+                    .size(50.dp)
+                    .offset(x = (30).dp)
+                    .offset(y = (40).dp)
+            ) {
+                Text(
+                    text = "<",
+                    textAlign = TextAlign.Center,
+                    style = TextStyle(
+                        fontSize = 20.sp,
+                        color = Color.Black,
+                        fontWeight = FontWeight.Bold
+                    )
+                )
+            }
+        }
+    }
+    Column(
+        modifier = Modifier
+            .fillMaxSize(),
+        verticalArrangement = Arrangement.Center,
+        horizontalAlignment = Alignment.CenterHorizontally
+    ) {
         Text(
-            text = "Pet Pal",
+            text = "Welcome Back",
             //fontFamily = kumarOne,
-            fontSize = 40.sp,
+            fontSize = 30.sp,
             color = smth_orange,
             modifier = Modifier
-                .offset(y = (-230).dp)
+                .offset(y = (-60).dp)
         )
 
         Text(
             text = "Log in to your Account",
             //fontFamily = kumarOne,
-            fontSize = 20.sp,
-            color = smth_black,
+            fontSize = 15.sp,
+            fontWeight = FontWeight.ExtraBold,
+            color = Color.Black,
             modifier = Modifier
-                .offset(y = (-210).dp)
+                .offset(y = (-50).dp)
         )
 
         TextField(
             modifier = Modifier
-                .height(25.dp)
-                .offset(y = (-180).dp),
+                .height(25.dp),
             colors = TextFieldDefaults.colors(
                 focusedTextColor = Color.Black,
                 unfocusedTextColor = Color.Black,
@@ -106,7 +140,9 @@ fun LoginScreen() {
                 disabledIndicatorColor = Color.Transparent
             ),
             shape = RoundedCornerShape(15.dp),
-            textStyle = TextStyle(color = Color.Black, fontSize = 12.sp),
+            textStyle = TextStyle(
+                color = Color.Black,
+                fontSize = 12.sp),
             maxLines = 1,
             value = "",
             onValueChange = {},
@@ -115,12 +151,19 @@ fun LoginScreen() {
                     text = "Username",
                     //fontFamily = alata,
                     fontSize = 12.sp,
-                    color = Color.Black) })
+                    color = Color.Black,
+                    fontWeight = FontWeight.ExtraBold,
+                    modifier = Modifier
+                        .offset(x = (30).dp)
+                        .offset(y = (-3).dp))
+            } )
+
+        Spacer(modifier = Modifier.height(40.dp))
 
         TextField(
             modifier = Modifier
-                .height(25.dp)
-                .offset(y = (-140).dp),
+                .height(25.dp),
+            shape = RoundedCornerShape(15.dp),
             colors = TextFieldDefaults.colors(
                 focusedTextColor = Color.Black,
                 unfocusedTextColor = Color.Black,
@@ -130,8 +173,9 @@ fun LoginScreen() {
                 unfocusedIndicatorColor = Color.Transparent,
                 disabledIndicatorColor = Color.Transparent
             ),
-            shape = RoundedCornerShape(15.dp),
-            textStyle = TextStyle(color = Color.Black, fontSize = 12.sp),
+            textStyle = TextStyle(
+                color = Color.Black,
+                fontSize = 12.sp),
             maxLines = 1,
             value = "",
             onValueChange = {},
@@ -140,12 +184,16 @@ fun LoginScreen() {
                     text = "Password",
                     //fontFamily = alata,
                     fontSize = 12.sp,
-                    color = Color.Black) })
+                    color = Color.Black,
+                    fontWeight = FontWeight.ExtraBold,
+                    modifier = Modifier
+                        .offset(x = (30).dp)
+                        .offset(y = (-3).dp))
+            } )
 
         Row(
             modifier = Modifier
-                .fillMaxWidth()
-                .offset(y = (-135).dp),
+                .fillMaxWidth(),
             horizontalArrangement = Arrangement.Center
         ) {
             Button(onClick = {},
@@ -157,7 +205,8 @@ fun LoginScreen() {
                 modifier = Modifier
                     .size(13.dp)
                     .offset(y = (29).dp)
-                    .offset(x = (-45).dp)) {}
+                    .offset(x = (-45).dp)) {
+            }
 
             Text(
                 text = "Remember Me",
@@ -180,7 +229,63 @@ fun LoginScreen() {
             )
         }
 
+        Button(onClick = {},
+            shape = RoundedCornerShape(15.dp),
+            colors = ButtonDefaults.buttonColors(
+                containerColor = Color(0xFFFFBA69),
+                contentColor = Color(0xFFFFBA69)),
+            modifier = Modifier
+                .height(40.dp)
+                .width(250.dp)
+                .offset(y = (60).dp)
+        ){
+            Text(
+                text = "Log In",
+                //fontFamily = alata,
+                fontSize = 15.sp,
+                fontWeight = FontWeight.SemiBold,
+                color = Color.Black
+            )
+        }
+    }
+    Column(
+        modifier = Modifier
+            .fillMaxHeight()
+            .fillMaxWidth(),
+        verticalArrangement = Arrangement.Bottom
+    ) {
+        Box(
+            modifier = Modifier
+                .fillMaxWidth()
+        ) {
+            Image(
+                painter = painterResource(id = R.drawable.botdesign2),
+                contentDescription = null,
+                modifier = Modifier
+                    .fillMaxWidth()
+                    .height(395.dp),
+                alignment = Alignment.BottomCenter
+            )
 
+            Image(
+                painter = painterResource(id = R.drawable.botcat),
+                contentDescription = null,
+                modifier = Modifier
+                    .size(200.dp)
+                    .offset(y = (165).dp)
+                    .offset(x = (30).dp),
+                alignment = Alignment.BottomCenter
+            )
+
+            Image(
+                painter = painterResource(id = R.drawable.botdesign1),
+                contentDescription = null,
+                modifier = Modifier
+                    .fillMaxWidth()
+                    .height(400.dp),
+                alignment = Alignment.BottomCenter
+            )
+        }
     }
 }
 

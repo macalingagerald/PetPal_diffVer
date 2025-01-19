@@ -8,13 +8,6 @@ import androidx.compose.ui.text.font.FontFamily
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.sp
 
-val kumarOne = FontFamily(
-    Font(R.font.kumar)
-)
-
-val alata = FontFamily(
-    Font(R.font.alata)
-)
 
 
 // Set of Material typography styles to start with
