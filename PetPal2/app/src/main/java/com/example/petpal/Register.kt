@@ -20,6 +20,12 @@ import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.material3.Checkbox
 import androidx.compose.material3.CheckboxDefaults
 import androidx.compose.ui.draw.clip
+import androidx.compose.ui.focus.focusModifier
+import androidx.compose.ui.text.TextStyle
+import androidx.compose.ui.text.font.Font
+import androidx.compose.ui.text.font.FontFamily
+import androidx.compose.ui.text.font.FontWeight
+import androidx.compose.ui.text.style.TextAlign
 
 @Composable
 @OptIn(ExperimentalMaterial3Api::class)
@@ -45,14 +51,25 @@ fun RegisterScreen() {
 
         Text(
             text = "Register",
-            fontSize = 32.sp,
-            color = coral
+            style = TextStyle(
+                fontSize = 25.sp,
+                fontFamily = FontFamily(Font(R.font.kumar_one)),
+                fontWeight = FontWeight(400),
+                color = Color(0xFFFF8D4C),
+                textAlign = TextAlign.Center,
+            )
         )
 
+        Spacer(modifier = Modifier.height(32.dp))
         Text(
             text = "Create your new account",
-            fontSize = 16.sp,
-            color = Color.Gray
+            style = TextStyle(
+                fontSize = 20.sp,
+                fontFamily = FontFamily(Font(R.font.kumar_one)),
+                fontWeight = FontWeight(400),
+                color = Color(0xFFFF8D4C),
+                textAlign = TextAlign.Center,
+                )
         )
 
         Spacer(modifier = Modifier.height(32.dp))
@@ -183,7 +200,6 @@ fun RegisterScreen() {
             )
         }
 
-        Spacer(modifier = Modifier.weight(1f))
 
         Row(
             modifier = Modifier.padding(bottom = 16.dp),
