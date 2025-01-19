@@ -54,10 +54,12 @@ dimen notification_small_icon_size_as_large
 dimen notification_subtext_size
 dimen notification_top_pad
 dimen notification_top_pad_large_text
+drawable back
 drawable botcat
 drawable botdesign1
 drawable botdesign2
 drawable cat
+drawable google
 drawable ic_call_answer
 drawable ic_call_answer_low
 drawable ic_call_answer_video

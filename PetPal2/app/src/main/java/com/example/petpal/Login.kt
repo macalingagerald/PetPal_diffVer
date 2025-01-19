@@ -273,7 +273,8 @@ fun LoginScreen() {
                 modifier = Modifier
                     .size(200.dp)
                     .offset(y = (165).dp)
-                    .offset(x = (30).dp),
+                    .offset(x = (30).dp)
+                ,
                 alignment = Alignment.BottomCenter
             )
 
