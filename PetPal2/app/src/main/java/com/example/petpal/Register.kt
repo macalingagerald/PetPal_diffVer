@@ -1,11 +1,13 @@
 package com.example.petpal
 
+import androidx.compose.foundation.border
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material3.*
 import androidx.compose.runtime.*
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.draw.shadow
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.painter.Painter
 import androidx.compose.ui.graphics.vector.ImageVector
@@ -14,6 +16,10 @@ import androidx.compose.ui.text.input.PasswordVisualTransformation
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
+import androidx.compose.foundation.shape.CircleShape
+import androidx.compose.material3.Checkbox
+import androidx.compose.material3.CheckboxDefaults
+import androidx.compose.ui.draw.clip
 
 @Composable
 @OptIn(ExperimentalMaterial3Api::class)
@@ -33,15 +39,7 @@ fun RegisterScreen() {
             .padding(24.dp),
         horizontalAlignment = Alignment.CenterHorizontally
     ) {
-        IconButton(
-            onClick = { /* Handle back navigation */ },
-            modifier = Modifier.align(Alignment.Start)
-        ) {
-            Icon(
-                painter = painterResource(R.drawable.back),
-                contentDescription = "Back"
-            )
-        }
+
 
         Spacer(modifier = Modifier.height(32.dp))
 
@@ -67,11 +65,11 @@ fun RegisterScreen() {
             modifier = Modifier
                 .fillMaxWidth()
                 .padding(vertical = 8.dp),
-            colors = TextFieldDefaults.textFieldColors(
+                colors = TextFieldDefaults.textFieldColors(
                 containerColor = peach,
                 unfocusedIndicatorColor = Color.Transparent
             ),
-            shape = RoundedCornerShape(8.dp)
+            shape = RoundedCornerShape(20.dp)
         )
 
         // Email TextField
@@ -82,11 +80,11 @@ fun RegisterScreen() {
             modifier = Modifier
                 .fillMaxWidth()
                 .padding(vertical = 8.dp),
-            colors = TextFieldDefaults.textFieldColors(
+                colors = TextFieldDefaults.textFieldColors(
                 containerColor = peach,
                 unfocusedIndicatorColor = Color.Transparent
             ),
-            shape = RoundedCornerShape(8.dp)
+            shape = RoundedCornerShape(20.dp)
         )
 
         // Password TextField
@@ -102,7 +100,7 @@ fun RegisterScreen() {
                 containerColor = peach,
                 unfocusedIndicatorColor = Color.Transparent
             ),
-            shape = RoundedCornerShape(8.dp)
+            shape = RoundedCornerShape(20.dp)
         )
 
         Spacer(modifier = Modifier.height(24.dp))
@@ -110,10 +108,20 @@ fun RegisterScreen() {
         Button(
             onClick = { /* Handle login */ },
             modifier = Modifier
-                .fillMaxWidth()
-                .height(48.dp),
-            colors = ButtonDefaults.buttonColors(containerColor = coral),
-            shape = RoundedCornerShape(8.dp)
+                .width(240.dp)
+                .height(48.dp)
+                .shadow(
+                    elevation = 4.dp,
+                    spotColor = Color(0x40000000),
+                    ambientColor = Color(0x40000000)
+                )
+                .border(
+                    width = 1.dp,
+                    color = Color(0x40000000),
+                    shape = RoundedCornerShape(size = 20.dp)
+                ),
+            colors = ButtonDefaults.buttonColors(containerColor = coral), // Assuming you want a coral color
+            shape = RoundedCornerShape(20.dp)
         ) {
             Text("Log In")
         }
@@ -131,7 +139,9 @@ fun RegisterScreen() {
                     checked = rememberMe,
                     onCheckedChange = { rememberMe = it },
                     colors = CheckboxDefaults.colors(checkedColor = coral)
+
                 )
+
                 Text("Remember me")
             }
             Spacer(modifier = Modifier.weight(1f))
@@ -161,16 +171,16 @@ fun RegisterScreen() {
         OutlinedButton(
             onClick = { /* Handle Google sign in */ },
             modifier = Modifier
-                .width(35.dp)
-                .height(35.dp),
-            shape = RoundedCornerShape(8.dp)
+                .size(35.dp),
+            shape = RoundedCornerShape(8.dp),
+            contentPadding = PaddingValues(0.dp)
         ) {
             Icon(
-                painter = painterResource(R.drawable.google), // Replace with Google icon
-                contentDescription="Google",
-                tint = coral
+                painter = painterResource(id = R.drawable.google), // Replace with actual Google icon resource
+                contentDescription = "Google",
+                modifier = Modifier.size(24.dp),
+                tint = Color.Unspecified // Use this to keep the icon's original colors
             )
-
         }
 
         Spacer(modifier = Modifier.weight(1f))
