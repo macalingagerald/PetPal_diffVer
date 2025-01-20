@@ -16,8 +16,17 @@ import com.example.petpal.ui.theme.PetPalTheme
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+
+        // Enable edge-to-edge content rendering
         enableEdgeToEdge()
+
         setContent {
+            PetPalTheme {
+                // Use Scaffold for material design layout structure
+                Scaffold { paddingValues ->
+                    LoginScreen(modifier = Modifier.padding(paddingValues))
+                }
+            }
         }
     }
 }

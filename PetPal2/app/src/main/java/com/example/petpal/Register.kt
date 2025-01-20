@@ -26,6 +26,9 @@ import androidx.compose.ui.text.font.Font
 import androidx.compose.ui.text.font.FontFamily
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
+import com.example.petpal.ui.theme.light_orange
+import com.example.petpal.ui.theme.smth_black
+import com.example.petpal.ui.theme.smth_orange
 
 @Composable
 @OptIn(ExperimentalMaterial3Api::class)
@@ -38,6 +41,8 @@ fun RegisterScreen() {
 
     val coral = Color(0xFFFF7F50)
     val peach = Color(0xFFFFE4C4)
+
+    Spacer(modifier = Modifier.height(32.dp))
 
     Column(
         modifier = Modifier
@@ -52,7 +57,7 @@ fun RegisterScreen() {
         Text(
             text = "Register",
             style = TextStyle(
-                fontSize = 25.sp,
+                fontSize = 35.sp,
                 fontFamily = FontFamily(Font(R.font.kumar_one)),
                 fontWeight = FontWeight(400),
                 color = Color(0xFFFF8D4C),
@@ -60,7 +65,7 @@ fun RegisterScreen() {
             )
         )
 
-        Spacer(modifier = Modifier.height(32.dp))
+        Spacer(modifier = Modifier.height(29.dp))
         Text(
             text = "Create your new account",
             style = TextStyle(
@@ -146,29 +151,46 @@ fun RegisterScreen() {
         Row(
             modifier = Modifier
                 .fillMaxWidth()
-                .padding(vertical = 16.dp),
-            verticalAlignment = Alignment.CenterVertically
+                .padding(horizontal = 60.dp),
+            horizontalArrangement = Arrangement.SpaceBetween
         ) {
-            Row(
-                verticalAlignment = Alignment.CenterVertically
-            ) {
-                Checkbox(
-                    checked = rememberMe,
-                    onCheckedChange = { rememberMe = it },
-                    colors = CheckboxDefaults.colors(checkedColor = coral)
-
-                )
-
-                Text("Remember me")
+            Button(onClick = {},
+                shape = CircleShape,
+                colors = ButtonDefaults.buttonColors(
+                    containerColor = smth_orange,
+                    contentColor = light_orange
+                ),
+                modifier = Modifier
+                    .size(13.dp)
+                    .offset(y = (29).dp)
+                    .offset(x = (-45).dp)) {
             }
-            Spacer(modifier = Modifier.weight(1f))
-            TextButton(onClick = { /* Handle forgot password */ }) {
-                Text(
-                    "Forgot Password?",
-                    color = coral
-                )
-            }
+
+            Text(
+                text = "Remember Me",
+                //fontFamily = alata,
+                fontSize = 10.sp,
+                color = smth_black,
+                modifier = Modifier
+                    .offset(y = (30).dp)
+                    .offset(x = (-40).dp)
+            )
+
+            Divider(modifier = Modifier.weight(0.5f))
+
+
+            Text(
+                text = "Forgot Password",
+                //fontFamily = alata,
+                fontSize = 10.sp,
+                color = Color.Black,
+                modifier = Modifier
+                    .offset(y = (30).dp)
+                    .offset(x = (45).dp)
+            )
         }
+
+        Spacer(modifier = Modifier.height(32.dp))
 
         Row(
             modifier = Modifier
@@ -177,12 +199,13 @@ fun RegisterScreen() {
             verticalAlignment = Alignment.CenterVertically
         ) {
             Divider(modifier = Modifier.weight(1f))
+
+
             Text(
                 "Or continue with",
-                modifier = Modifier.padding(horizontal = 16.dp),
-                color = Color.Gray
-            )
-            Divider(modifier = Modifier.weight(1f))
+                modifier = Modifier.padding(horizontal = 16.dp))
+
+
         }
 
         OutlinedButton(
