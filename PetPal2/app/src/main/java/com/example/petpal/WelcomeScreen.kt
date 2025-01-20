@@ -1,8 +1,6 @@
-
 package com.example.petpal
 
 import androidx.compose.foundation.Image
-import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material3.*
@@ -22,95 +20,92 @@ import androidx.compose.ui.unit.sp
 fun WelcomeScreen() {
     Surface(
         modifier = Modifier.fillMaxSize(),
-        color = Color(0xFFF7F7F7)
+        color = Color.White // Set the background color to solid white
     ) {
-        Box(
+        Column(
             modifier = Modifier
                 .fillMaxSize()
-                .padding(16.dp)
+                .padding(24.dp),
+            horizontalAlignment = Alignment.CenterHorizontally,
+            verticalArrangement = Arrangement.Center
         ) {
-            Card(
+            // Logo and branding
+            Image(
+                painter = painterResource(id = R.drawable.cat),
+                contentDescription = "PetPal Logo",
+                modifier = Modifier
+                    .size(150.dp) // Increased size of the logo
+                    .clip(RoundedCornerShape(16.dp)),
+                contentScale = ContentScale.Fit
+            )
+
+            Spacer(modifier = Modifier.height(24.dp))
+
+            Text(
+                text = "PetPal",
+                fontSize = 36.sp, // Increased font size for the title
+                fontWeight = FontWeight.Bold,
+                color = Color(0xFFFF9966)
+            )
+
+            Text(
+                text = "Adopt. Care. Love.",
+                fontSize = 20.sp, // Increased font size for the subtitle
+                color = Color(0xFF666666).copy(alpha = 0.7f)
+            )
+
+            Spacer(modifier = Modifier.height(32.dp))
+
+            // Login button
+            OutlinedButton(
+                onClick = { /* TODO: Handle login */ },
                 modifier = Modifier
                     .fillMaxWidth()
-                    .padding(horizontal = 16.dp)
-                    .align(Alignment.Center),
-                shape = RoundedCornerShape(24.dp),
-                elevation = CardDefaults.cardElevation(defaultElevation = 4.dp)
+                    .height(56.dp), // Increased button height
+                shape = RoundedCornerShape(16.dp), // Slightly rounder button corners
+                colors = ButtonDefaults.outlinedButtonColors(
+                    contentColor = Color(0xFF666666)
+                )
             ) {
-                Column(
-                    modifier = Modifier
-                        .fillMaxWidth()
-                        .padding(24.dp),
-                    horizontalAlignment = Alignment.CenterHorizontally,
-                    verticalArrangement = Arrangement.spacedBy(16.dp)
-                ) {
-                    // Logo and branding
-                    Image(
-                        painter = painterResource(id = R.drawable.cat),
-                        contentDescription = "PetPal Logo",
-                        modifier = Modifier
-                            .size(120.dp)
-                            .clip(RoundedCornerShape(12.dp)),
-                        contentScale = ContentScale.Fit
-                    )
+                Text(
+                    text = "Log In",
+                    fontSize = 18.sp // Increased button text size
+                )
+            }
 
-                    Text(
-                        text = "PetPal",
-                        fontSize = 32.sp,
-                        fontWeight = FontWeight.Bold,
-                        color = Color(0xFFFF9966)
-                    )
+            Spacer(modifier = Modifier.height(16.dp))
 
-                    Text(
-                        text = "Adopt. Care. Love.",
-                        fontSize = 16.sp,
-                        color = Color(0xFF666666).copy(alpha = 0.7f)
-                    )
+            // Sign up button
+            Button(
+                onClick = { /* TODO: Handle sign up */ },
+                modifier = Modifier
+                    .fillMaxWidth()
+                    .height(56.dp), // Increased button height
+                shape = RoundedCornerShape(16.dp), // Slightly rounder button corners
+                colors = ButtonDefaults.buttonColors(
+                    containerColor = Color(0xFFFF9966),
+                    contentColor = Color.White
+                )
+            ) {
+                Text(
+                    text = "Sign Up",
+                    fontSize = 18.sp // Increased button text size
+                )
+            }
 
-                    Spacer(modifier = Modifier.height(16.dp))
+            Spacer(modifier = Modifier.height(16.dp))
 
-                    // Login button
-                    OutlinedButton(
-                        onClick = { /* TODO: Handle login */ },
-                        modifier = Modifier
-                            .fillMaxWidth()
-                            .height(48.dp),
-                        shape = RoundedCornerShape(12.dp),
-                        colors = ButtonDefaults.outlinedButtonColors(
-                            contentColor = Color(0xFF666666)
-                        )
-                    ) {
-                        Text("Log In")
-                    }
-
-                    // Sign up button
-                    Button(
-                        onClick = { /* TODO: Handle sign up */ },
-                        modifier = Modifier
-                            .fillMaxWidth()
-                            .height(48.dp),
-                        shape = RoundedCornerShape(12.dp),
-                        colors = ButtonDefaults.buttonColors(
-                            containerColor = Color(0xFFFF9966),
-                            contentColor = Color.White
-                        )
-                    ) {
-                        Text("Sign Up")
-                    }
-
-                    // Skip text
-                    TextButton(
-                        onClick = { /* TODO: Handle skip */ },
-                        colors = ButtonDefaults.textButtonColors(
-                            contentColor = Color(0xFF666666)
-                        )
-                    ) {
-                        Text(
-                            text = "Skip",
-                            fontSize = 14.sp
-                        )
-                    }
-                }
+            // Skip text
+            TextButton(
+                onClick = { /* TODO: Handle skip */ },
+                colors = ButtonDefaults.textButtonColors(
+                    contentColor = Color(0xFF666666)
+                )
+            ) {
+                Text(
+                    text = "Skip",
+                    fontSize = 16.sp // Increased font size for skip text
+                )
             }
         }
     }

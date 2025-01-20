@@ -205,6 +205,8 @@ fun RegisterScreen() {
                 "Or continue with",
                 modifier = Modifier.padding(horizontal = 16.dp))
 
+            Divider(modifier = Modifier.weight(1f))
+
 
         }
 
@@ -242,8 +244,9 @@ fun RegisterScreen() {
 @Preview(
     name = "Register",
     showBackground = true,
-    showSystemUi = true
+    showSystemUi = false // Change this to false if unnecessary
 )
+
 @Composable
 fun RegisterScreenPreview() {
     // Wrap with your app's theme if you have one
