@@ -13,6 +13,7 @@ import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
+import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material3.Button
 import androidx.compose.material3.ButtonDefaults
@@ -24,6 +25,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
+import androidx.compose.ui.draw.shadow
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.res.painterResource
@@ -33,6 +35,10 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
+import com.example.petpal.ui.theme.alata
+import com.example.petpal.ui.theme.kumarOne
+import com.example.petpal.ui.theme.poppinsBold
+import com.example.petpal.ui.theme.smth_orange
 
 class WelcomeScreen : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -53,7 +59,7 @@ fun Welcome() {
         Column(
             modifier = Modifier
                 .fillMaxSize()
-                .padding(24.dp),
+                .padding(40.dp),
             horizontalAlignment = Alignment.CenterHorizontally,
             verticalArrangement = Arrangement.Center
         ) {
@@ -62,24 +68,24 @@ fun Welcome() {
                 painter = painterResource(id = R.drawable.cat),
                 contentDescription = "PetPal Logo",
                 modifier = Modifier
-                    .size(150.dp) // Increased size of the logo
-                    .clip(RoundedCornerShape(16.dp)),
-                contentScale = ContentScale.Fit
+                    .size(180.dp)
             )
 
             Spacer(modifier = Modifier.height(24.dp))
 
-            Text(
-                text = "PetPal",
-                fontSize = 36.sp, // Increased font size for the title
-                fontWeight = FontWeight.Bold,
-                color = Color(0xFFFF9966)
+            Image(
+                painter = painterResource(id = R.drawable.title_logo),
+                contentDescription = "Title Logo",
+                modifier = Modifier
+                    .height(80.dp)
+                    .width(200.dp)
             )
 
             Text(
                 text = "Adopt. Care. Love.",
-                fontSize = 20.sp, // Increased font size for the subtitle
-                color = Color(0xFF666666).copy(alpha = 0.7f)
+                fontSize = 15.sp,
+                fontFamily = poppinsBold,
+                color = smth_orange
             )
 
             Spacer(modifier = Modifier.height(32.dp))
@@ -89,7 +95,7 @@ fun Welcome() {
                 onClick = { /* TODO: Handle login */ },
                 modifier = Modifier
                     .fillMaxWidth()
-                    .height(56.dp), // Increased button height
+                    .height(55.dp), // Increased button height
                 shape = RoundedCornerShape(16.dp), // Slightly rounder button corners
                 colors = ButtonDefaults.outlinedButtonColors(
                     contentColor = Color(0xFF666666)
@@ -97,7 +103,9 @@ fun Welcome() {
             ) {
                 Text(
                     text = "Log In",
-                    fontSize = 18.sp // Increased button text size
+                    fontSize = 18.sp,
+                    fontFamily = alata,
+                    color = smth_orange
                 )
             }
 
@@ -117,7 +125,9 @@ fun Welcome() {
             ) {
                 Text(
                     text = "Sign Up",
-                    fontSize = 18.sp // Increased button text size
+                    fontSize = 18.sp,
+                    fontFamily = alata,
+                    color = Color.Black
                 )
             }
 
@@ -126,13 +136,14 @@ fun Welcome() {
             // Skip text
             TextButton(
                 onClick = { /* TODO: Handle skip */ },
-                colors = ButtonDefaults.textButtonColors(
-                    contentColor = Color(0xFF666666)
-                )
+                colors = ButtonDefaults.textButtonColors
+                    (contentColor = Color(0xFF666666))
             ) {
                 Text(
                     text = "Skip",
-                    fontSize = 16.sp // Increased font size for skip text
+                    fontSize = 16.sp,
+                    fontFamily = alata,
+                    color = Color(0x80000000)
                 )
             }
         }
