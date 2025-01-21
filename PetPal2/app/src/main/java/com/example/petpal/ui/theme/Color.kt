@@ -8,6 +8,8 @@ val Pink80 = Color(0xFFEFB8C8)
 val smth_orange = Color(0xFFFF8D4C)
 val smth_black = Color(0x80000000)
 val light_orange = Color(0x80FFBA69)
+val coral = Color(0xFFFF7F50)
+val peach = Color(0xFFFFE4C4)
 
 val Purple40 = Color(0xFF6650a4)
 val PurpleGrey40 = Color(0xFF625b71)

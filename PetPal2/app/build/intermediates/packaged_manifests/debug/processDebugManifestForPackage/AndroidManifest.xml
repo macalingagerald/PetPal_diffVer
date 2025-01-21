@@ -27,6 +27,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.PetPal" >
         <activity
+            android:name="com.example.petpal.WelcomeScreen"
+            android:exported="false" />
+        <activity
+            android:name="com.example.petpal.Register"
+            android:exported="false" />
+        <activity
+            android:name="com.example.petpal.Login"
+            android:exported="false" />
+        <activity
             android:name="com.example.petpal.MainActivity"
             android:exported="true"
             android:label="@string/app_name"
@@ -38,10 +47,10 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="androidx.activity.ComponentActivity"
+            android:name="androidx.compose.ui.tooling.PreviewActivity"
             android:exported="true" />
         <activity
-            android:name="androidx.compose.ui.tooling.PreviewActivity"
+            android:name="androidx.activity.ComponentActivity"
             android:exported="true" />
 
         <provider
