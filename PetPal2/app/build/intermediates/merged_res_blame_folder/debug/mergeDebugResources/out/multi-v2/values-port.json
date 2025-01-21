@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.petpal.app-mergeDebugResources-57:/values-port/values-port.xml",
+            "outputFile": "com.example.petpal.app-mergeDebugResources-2:/values-port/values-port.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Administrator\\.gradle\\caches\\8.9\\transforms\\98cab9cd919b99bc921ca1d07a3387ed\\transformed\\appcompat-1.7.0\\res\\values-port\\values-port.xml",
+                    "source": "C:\\Users\\hp\\.gradle\\caches\\8.9\\transforms\\98cab9cd919b99bc921ca1d07a3387ed\\transformed\\appcompat-1.7.0\\res\\values-port\\values-port.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

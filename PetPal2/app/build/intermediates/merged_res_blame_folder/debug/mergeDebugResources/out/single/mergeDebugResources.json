@@ -1,118 +1,118 @@
 [
     {
-        "merged": "com.example.petpal.app-debug-59:/mipmap-xhdpi_ic_launcher.webp.flat",
-        "source": "com.example.petpal.app-main-61:/mipmap-xhdpi/ic_launcher.webp"
+        "merged": "com.example.petpal.app-debug-4:/xml_data_extraction_rules.xml.flat",
+        "source": "com.example.petpal.app-main-6:/xml/data_extraction_rules.xml"
     },
     {
-        "merged": "com.example.petpal.app-debug-59:/drawable_ic_launcher_background.xml.flat",
-        "source": "com.example.petpal.app-main-61:/drawable/ic_launcher_background.xml"
+        "merged": "com.example.petpal.app-debug-4:/drawable_back.png.flat",
+        "source": "com.example.petpal.app-main-6:/drawable/back.png"
     },
     {
-        "merged": "com.example.petpal.app-debug-59:/drawable_title_logo.png.flat",
-        "source": "com.example.petpal.app-main-61:/drawable/title_logo.png"
+        "merged": "com.example.petpal.app-debug-4:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "com.example.petpal.app-main-6:/mipmap-xxxhdpi/ic_launcher.webp"
     },
     {
-        "merged": "com.example.petpal.app-debug-59:/drawable_back.png.flat",
-        "source": "com.example.petpal.app-main-61:/drawable/back.png"
+        "merged": "com.example.petpal.app-debug-4:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.petpal.app-main-6:/mipmap-xxxhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "com.example.petpal.app-debug-59:/mipmap-mdpi_ic_launcher.webp.flat",
-        "source": "com.example.petpal.app-main-61:/mipmap-mdpi/ic_launcher.webp"
+        "merged": "com.example.petpal.app-debug-4:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "com.example.petpal.app-main-6:/mipmap-hdpi/ic_launcher.webp"
     },
     {
-        "merged": "com.example.petpal.app-debug-59:/drawable_topdesign1.png.flat",
-        "source": "com.example.petpal.app-main-61:/drawable/topdesign1.png"
+        "merged": "com.example.petpal.app-debug-4:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "com.example.petpal.app-main-6:/drawable/ic_launcher_foreground.xml"
     },
     {
-        "merged": "com.example.petpal.app-debug-59:/drawable_botdesign2.png.flat",
-        "source": "com.example.petpal.app-main-61:/drawable/botdesign2.png"
+        "merged": "com.example.petpal.app-debug-4:/drawable_google.png.flat",
+        "source": "com.example.petpal.app-main-6:/drawable/google.png"
     },
     {
-        "merged": "com.example.petpal.app-debug-59:/drawable_google.png.flat",
-        "source": "com.example.petpal.app-main-61:/drawable/google.png"
+        "merged": "com.example.petpal.app-debug-4:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "com.example.petpal.app-main-6:/mipmap-xxhdpi/ic_launcher.webp"
     },
     {
-        "merged": "com.example.petpal.app-debug-59:/mipmap-xhdpi_ic_launcher_round.webp.flat",
-        "source": "com.example.petpal.app-main-61:/mipmap-xhdpi/ic_launcher_round.webp"
+        "merged": "com.example.petpal.app-debug-4:/drawable_botdesign1.png.flat",
+        "source": "com.example.petpal.app-main-6:/drawable/botdesign1.png"
     },
     {
-        "merged": "com.example.petpal.app-debug-59:/drawable_ic_launcher_foreground.xml.flat",
-        "source": "com.example.petpal.app-main-61:/drawable/ic_launcher_foreground.xml"
+        "merged": "com.example.petpal.app-debug-4:/mipmap-anydpi_ic_launcher.xml.flat",
+        "source": "com.example.petpal.app-main-6:/mipmap-anydpi/ic_launcher.xml"
     },
     {
-        "merged": "com.example.petpal.app-debug-59:/drawable_botcat.png.flat",
-        "source": "com.example.petpal.app-main-61:/drawable/botcat.png"
+        "merged": "com.example.petpal.app-debug-4:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "com.example.petpal.app-main-6:/mipmap-mdpi/ic_launcher.webp"
     },
     {
-        "merged": "com.example.petpal.app-debug-59:/drawable_topdesign2.png.flat",
-        "source": "com.example.petpal.app-main-61:/drawable/topdesign2.png"
+        "merged": "com.example.petpal.app-debug-4:/drawable_topdesign1.png.flat",
+        "source": "com.example.petpal.app-main-6:/drawable/topdesign1.png"
     },
     {
-        "merged": "com.example.petpal.app-debug-59:/mipmap-mdpi_ic_launcher_round.webp.flat",
-        "source": "com.example.petpal.app-main-61:/mipmap-mdpi/ic_launcher_round.webp"
+        "merged": "com.example.petpal.app-debug-4:/font_alata.ttf.flat",
+        "source": "com.example.petpal.app-main-6:/font/alata.ttf"
     },
     {
-        "merged": "com.example.petpal.app-debug-59:/mipmap-hdpi_ic_launcher_round.webp.flat",
-        "source": "com.example.petpal.app-main-61:/mipmap-hdpi/ic_launcher_round.webp"
+        "merged": "com.example.petpal.app-debug-4:/mipmap-anydpi_ic_launcher_round.xml.flat",
+        "source": "com.example.petpal.app-main-6:/mipmap-anydpi/ic_launcher_round.xml"
     },
     {
-        "merged": "com.example.petpal.app-debug-59:/xml_data_extraction_rules.xml.flat",
-        "source": "com.example.petpal.app-main-61:/xml/data_extraction_rules.xml"
+        "merged": "com.example.petpal.app-debug-4:/drawable_topdesign2.png.flat",
+        "source": "com.example.petpal.app-main-6:/drawable/topdesign2.png"
     },
     {
-        "merged": "com.example.petpal.app-debug-59:/drawable_botdesign1.png.flat",
-        "source": "com.example.petpal.app-main-61:/drawable/botdesign1.png"
+        "merged": "com.example.petpal.app-debug-4:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "com.example.petpal.app-main-6:/mipmap-xhdpi/ic_launcher.webp"
     },
     {
-        "merged": "com.example.petpal.app-debug-59:/mipmap-xxhdpi_ic_launcher.webp.flat",
-        "source": "com.example.petpal.app-main-61:/mipmap-xxhdpi/ic_launcher.webp"
+        "merged": "com.example.petpal.app-debug-4:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.example.petpal.app-main-6:/drawable/ic_launcher_background.xml"
     },
     {
-        "merged": "com.example.petpal.app-debug-59:/drawable_topcat.png.flat",
-        "source": "com.example.petpal.app-main-61:/drawable/topcat.png"
+        "merged": "com.example.petpal.app-debug-4:/drawable_cat.png.flat",
+        "source": "com.example.petpal.app-main-6:/drawable/cat.png"
     },
     {
-        "merged": "com.example.petpal.app-debug-59:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
-        "source": "com.example.petpal.app-main-61:/mipmap-xxxhdpi/ic_launcher_round.webp"
+        "merged": "com.example.petpal.app-debug-4:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.petpal.app-main-6:/mipmap-hdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "com.example.petpal.app-debug-59:/font_kumar_one.ttf.flat",
-        "source": "com.example.petpal.app-main-61:/font/kumar_one.ttf"
+        "merged": "com.example.petpal.app-debug-4:/font_kumar_one.ttf.flat",
+        "source": "com.example.petpal.app-main-6:/font/kumar_one.ttf"
     },
     {
-        "merged": "com.example.petpal.app-debug-59:/drawable_cat.png.flat",
-        "source": "com.example.petpal.app-main-61:/drawable/cat.png"
+        "merged": "com.example.petpal.app-debug-4:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.petpal.app-main-6:/mipmap-mdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "com.example.petpal.app-debug-59:/mipmap-anydpi_ic_launcher.xml.flat",
-        "source": "com.example.petpal.app-main-61:/mipmap-anydpi/ic_launcher.xml"
+        "merged": "com.example.petpal.app-debug-4:/xml_backup_rules.xml.flat",
+        "source": "com.example.petpal.app-main-6:/xml/backup_rules.xml"
     },
     {
-        "merged": "com.example.petpal.app-debug-59:/mipmap-xxxhdpi_ic_launcher.webp.flat",
-        "source": "com.example.petpal.app-main-61:/mipmap-xxxhdpi/ic_launcher.webp"
+        "merged": "com.example.petpal.app-debug-4:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.petpal.app-main-6:/mipmap-xhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "com.example.petpal.app-debug-59:/font_alata.ttf.flat",
-        "source": "com.example.petpal.app-main-61:/font/alata.ttf"
+        "merged": "com.example.petpal.app-debug-4:/drawable_topcat.png.flat",
+        "source": "com.example.petpal.app-main-6:/drawable/topcat.png"
     },
     {
-        "merged": "com.example.petpal.app-debug-59:/xml_backup_rules.xml.flat",
-        "source": "com.example.petpal.app-main-61:/xml/backup_rules.xml"
+        "merged": "com.example.petpal.app-debug-4:/drawable_title_logo.png.flat",
+        "source": "com.example.petpal.app-main-6:/drawable/title_logo.png"
     },
     {
-        "merged": "com.example.petpal.app-debug-59:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
-        "source": "com.example.petpal.app-main-61:/mipmap-xxhdpi/ic_launcher_round.webp"
+        "merged": "com.example.petpal.app-debug-4:/font_poppins_bold.ttf.flat",
+        "source": "com.example.petpal.app-main-6:/font/poppins_bold.ttf"
     },
     {
-        "merged": "com.example.petpal.app-debug-59:/mipmap-anydpi_ic_launcher_round.xml.flat",
-        "source": "com.example.petpal.app-main-61:/mipmap-anydpi/ic_launcher_round.xml"
+        "merged": "com.example.petpal.app-debug-4:/drawable_botcat.png.flat",
+        "source": "com.example.petpal.app-main-6:/drawable/botcat.png"
     },
     {
-        "merged": "com.example.petpal.app-debug-59:/mipmap-hdpi_ic_launcher.webp.flat",
-        "source": "com.example.petpal.app-main-61:/mipmap-hdpi/ic_launcher.webp"
+        "merged": "com.example.petpal.app-debug-4:/drawable_botdesign2.png.flat",
+        "source": "com.example.petpal.app-main-6:/drawable/botdesign2.png"
     },
     {
-        "merged": "com.example.petpal.app-debug-59:/font_poppins_bold.ttf.flat",
-        "source": "com.example.petpal.app-main-61:/font/poppins_bold.ttf"
+        "merged": "com.example.petpal.app-debug-4:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.petpal.app-main-6:/mipmap-xxhdpi/ic_launcher_round.webp"
     }
 ]
