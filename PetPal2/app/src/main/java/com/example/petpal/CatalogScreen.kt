@@ -21,50 +21,15 @@ import androidx.compose.ui.unit.dp
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
-fun CatalogScreen() {
+fun CatalogScreen(modifier: Modifier = Modifier) {
+    Column(
+        modifier = modifier
+            .fillMaxSize()
+    ) {
     var selectedCategory by remember { mutableStateOf(0) }
 
     Scaffold(
-        topBar = {
-            SmallTopAppBar(
-                title = { Text("Catalog") },
-                navigationIcon = {
-                    IconButton(onClick = {}) {
-                        Icon(Icons.Default.Menu, "Menu")
-                    }
-                },
-                actions = {
-                    IconButton(onClick = {}) {
-                        Icon(Icons.Default.Search, "Search")
-                    }
-                    IconButton(onClick = {}) {
-                        Icon(Icons.Default.MoreVert, "More")
-                    }
-                }
-            )
-        },
-        bottomBar = {
-            NavigationBar {
-                NavigationBarItem(
-                    icon = { Icon(Icons.Default.Home, "Catalog") },
-                    label = { Text("Catalog") },
-                    selected = true,
-                    onClick = {}
-                )
-                NavigationBarItem(
-                    icon = { Icon(Icons.Default.List, "Services") },
-                    label = { Text("Services") },
-                    selected = false,
-                    onClick = {}
-                )
-                NavigationBarItem(
-                    icon = { Icon(Icons.Default.Pets, "Adoptions") },
-                    label = { Text("Adoptions") },
-                    selected = false,
-                    onClick = {}
-                )
-            }
-        }
+
     ) { paddingValues ->
         Column(
             modifier = Modifier
@@ -156,12 +121,4 @@ fun CatalogScreen() {
             }
         }
     }
-}
-
-@Preview(showBackground = true)
-@Composable
-fun CatalogScreenPreview() {
-    MaterialTheme {
-        CatalogScreen()
-    }
-}
+}}
