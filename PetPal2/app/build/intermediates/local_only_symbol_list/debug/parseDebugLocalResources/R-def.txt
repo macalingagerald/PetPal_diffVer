@@ -1,0 +1,30 @@
+R_DEF: Internal format may change without notice
+local
+color black
+color purple_200
+color purple_500
+color purple_700
+color teal_200
+color teal_700
+color white
+drawable back_button
+drawable botcat
+drawable botdesign1
+drawable botdesign2
+drawable cat
+drawable ic_launcher_background
+drawable ic_launcher_foreground
+drawable title
+drawable topcat
+drawable topdesign1
+drawable topdesign2
+drawable welcome_img
+font alata
+font kumar_one
+font poppins_bold
+mipmap ic_launcher
+mipmap ic_launcher_round
+string app_name
+style Theme.PetPal
+xml backup_rules
+xml data_extraction_rules
