@@ -36,7 +36,6 @@ android {
     }
     buildFeatures {
         compose = true
-        viewBinding = true
     }
 }
 
@@ -56,11 +55,6 @@ dependencies {
     implementation("androidx.activity:activity:1.10.0")
     implementation ("androidx.compose.material3:material3:1.1.0")
     implementation("androidx.compose.material:material-icons-extended:1.5.0")
-    implementation("androidx.constraintlayout:constraintlayout:2.2.0")
-    implementation("androidx.lifecycle:lifecycle-livedata-ktx:2.8.7")
-    implementation("androidx.lifecycle:lifecycle-viewmodel-ktx:2.8.7")
-    implementation("androidx.navigation:navigation-fragment-ktx:2.8.5")
-    implementation("androidx.navigation:navigation-ui-ktx:2.8.5")
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)

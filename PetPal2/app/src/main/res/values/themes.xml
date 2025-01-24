@@ -2,13 +2,4 @@
 <resources>
 
     <style name="Theme.PetPal" parent="android:Theme.Material.Light.NoActionBar" />
-
-    <style name="Theme.PetPal.NoActionBar">
-        <item name="windowActionBar">false</item>
-        <item name="windowNoTitle">true</item>
-    </style>
-
-    <style name="Theme.PetPal.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
-
-    <style name="Theme.PetPal.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
 </resources>
