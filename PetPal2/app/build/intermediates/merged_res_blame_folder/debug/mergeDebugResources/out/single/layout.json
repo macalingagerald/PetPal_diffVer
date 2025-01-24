@@ -1,0 +1,30 @@
+[
+    {
+        "merged": "com.example.petpal.app-mergeDebugResources-3:/layout/nav_header_scaffold.xml",
+        "source": "com.example.petpal.app-main-6:/layout/nav_header_scaffold.xml"
+    },
+    {
+        "merged": "com.example.petpal.app-mergeDebugResources-3:/layout/fragment_home.xml",
+        "source": "com.example.petpal.app-main-6:/layout/fragment_home.xml"
+    },
+    {
+        "merged": "com.example.petpal.app-mergeDebugResources-3:/layout/fragment_gallery.xml",
+        "source": "com.example.petpal.app-main-6:/layout/fragment_gallery.xml"
+    },
+    {
+        "merged": "com.example.petpal.app-mergeDebugResources-3:/layout/activity_scaffold.xml",
+        "source": "com.example.petpal.app-main-6:/layout/activity_scaffold.xml"
+    },
+    {
+        "merged": "com.example.petpal.app-mergeDebugResources-3:/layout/content_scaffold.xml",
+        "source": "com.example.petpal.app-main-6:/layout/content_scaffold.xml"
+    },
+    {
+        "merged": "com.example.petpal.app-mergeDebugResources-3:/layout/fragment_slideshow.xml",
+        "source": "com.example.petpal.app-main-6:/layout/fragment_slideshow.xml"
+    },
+    {
+        "merged": "com.example.petpal.app-mergeDebugResources-3:/layout/app_bar_scaffold.xml",
+        "source": "com.example.petpal.app-main-6:/layout/app_bar_scaffold.xml"
+    }
+]

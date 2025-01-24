@@ -1,126 +1,182 @@
 [
     {
-        "merged": "C:\\Users\\hp\\.gradle\\daemon\\8.9\\com.example.petpal.app-debug-4:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\hp\\.gradle\\daemon\\8.9\\com.example.petpal.app-main-6:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+        "merged": "com.example.petpal.app-debug-4:/drawable_back.png.flat",
+        "source": "com.example.petpal.app-main-6:/drawable/back.png"
     },
     {
-        "merged": "C:\\Users\\hp\\.gradle\\daemon\\8.9\\com.example.petpal.app-debug-4:\\drawable_topdesign2.png.flat",
-        "source": "C:\\Users\\hp\\.gradle\\daemon\\8.9\\com.example.petpal.app-main-6:\\drawable\\topdesign2.png"
+        "merged": "com.example.petpal.app-debug-4:/xml_data_extraction_rules.xml.flat",
+        "source": "com.example.petpal.app-main-6:/xml/data_extraction_rules.xml"
     },
     {
-        "merged": "C:\\Users\\hp\\.gradle\\daemon\\8.9\\com.example.petpal.app-debug-4:\\drawable_back.png.flat",
-        "source": "C:\\Users\\hp\\.gradle\\daemon\\8.9\\com.example.petpal.app-main-6:\\drawable\\back.png"
+        "merged": "com.example.petpal.app-debug-4:/layout_activity_scaffold.xml.flat",
+        "source": "com.example.petpal.app-main-6:/layout/activity_scaffold.xml"
     },
     {
-        "merged": "C:\\Users\\hp\\.gradle\\daemon\\8.9\\com.example.petpal.app-debug-4:\\drawable_cat.png.flat",
-        "source": "C:\\Users\\hp\\.gradle\\daemon\\8.9\\com.example.petpal.app-main-6:\\drawable\\cat.png"
+        "merged": "com.example.petpal.app-debug-4:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "com.example.petpal.app-main-6:/mipmap-xxxhdpi/ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\hp\\.gradle\\daemon\\8.9\\com.example.petpal.app-debug-4:\\mipmap-hdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\hp\\.gradle\\daemon\\8.9\\com.example.petpal.app-main-6:\\mipmap-hdpi\\ic_launcher.webp"
+        "merged": "com.example.petpal.app-debug-4:/drawable_ic_menu_camera.xml.flat",
+        "source": "com.example.petpal.app-main-6:/drawable/ic_menu_camera.xml"
     },
     {
-        "merged": "C:\\Users\\hp\\.gradle\\daemon\\8.9\\com.example.petpal.app-debug-4:\\drawable_title_logo.png.flat",
-        "source": "C:\\Users\\hp\\.gradle\\daemon\\8.9\\com.example.petpal.app-main-6:\\drawable\\title_logo.png"
+        "merged": "com.example.petpal.app-debug-4:/layout_fragment_home.xml.flat",
+        "source": "com.example.petpal.app-main-6:/layout/fragment_home.xml"
     },
     {
-        "merged": "C:\\Users\\hp\\.gradle\\daemon\\8.9\\com.example.petpal.app-debug-4:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\hp\\.gradle\\daemon\\8.9\\com.example.petpal.app-main-6:\\mipmap-xxxhdpi\\ic_launcher.webp"
+        "merged": "com.example.petpal.app-debug-4:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.petpal.app-main-6:/mipmap-xxxhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\hp\\.gradle\\daemon\\8.9\\com.example.petpal.app-debug-4:\\drawable_google.png.flat",
-        "source": "C:\\Users\\hp\\.gradle\\daemon\\8.9\\com.example.petpal.app-main-6:\\drawable\\google.png"
+        "merged": "com.example.petpal.app-debug-4:/drawable_side_nav_bar.xml.flat",
+        "source": "com.example.petpal.app-main-6:/drawable/side_nav_bar.xml"
     },
     {
-        "merged": "C:\\Users\\hp\\.gradle\\daemon\\8.9\\com.example.petpal.app-debug-4:\\drawable_botdesign2.png.flat",
-        "source": "C:\\Users\\hp\\.gradle\\daemon\\8.9\\com.example.petpal.app-main-6:\\drawable\\botdesign2.png"
+        "merged": "com.example.petpal.app-debug-4:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "com.example.petpal.app-main-6:/mipmap-hdpi/ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\hp\\.gradle\\daemon\\8.9\\com.example.petpal.app-debug-4:\\mipmap-anydpi_ic_launcher_round.xml.flat",
-        "source": "C:\\Users\\hp\\.gradle\\daemon\\8.9\\com.example.petpal.app-main-6:\\mipmap-anydpi\\ic_launcher_round.xml"
+        "merged": "com.example.petpal.app-debug-4:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "com.example.petpal.app-main-6:/drawable/ic_launcher_foreground.xml"
     },
     {
-        "merged": "C:\\Users\\hp\\.gradle\\daemon\\8.9\\com.example.petpal.app-debug-4:\\mipmap-anydpi_ic_launcher.xml.flat",
-        "source": "C:\\Users\\hp\\.gradle\\daemon\\8.9\\com.example.petpal.app-main-6:\\mipmap-anydpi\\ic_launcher.xml"
+        "merged": "com.example.petpal.app-debug-4:/drawable_google.png.flat",
+        "source": "com.example.petpal.app-main-6:/drawable/google.png"
     },
     {
-        "merged": "C:\\Users\\hp\\.gradle\\daemon\\8.9\\com.example.petpal.app-debug-4:\\mipmap-mdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\hp\\.gradle\\daemon\\8.9\\com.example.petpal.app-main-6:\\mipmap-mdpi\\ic_launcher_round.webp"
+        "merged": "com.example.petpal.app-debug-4:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "com.example.petpal.app-main-6:/mipmap-xxhdpi/ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\hp\\.gradle\\daemon\\8.9\\com.example.petpal.app-debug-4:\\mipmap-hdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\hp\\.gradle\\daemon\\8.9\\com.example.petpal.app-main-6:\\mipmap-hdpi\\ic_launcher_round.webp"
+        "merged": "com.example.petpal.app-debug-4:/layout_fragment_slideshow.xml.flat",
+        "source": "com.example.petpal.app-main-6:/layout/fragment_slideshow.xml"
     },
     {
-        "merged": "C:\\Users\\hp\\.gradle\\daemon\\8.9\\com.example.petpal.app-debug-4:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\hp\\.gradle\\daemon\\8.9\\com.example.petpal.app-main-6:\\mipmap-xhdpi\\ic_launcher_round.webp"
+        "merged": "com.example.petpal.app-debug-4:/drawable_botdesign1.png.flat",
+        "source": "com.example.petpal.app-main-6:/drawable/botdesign1.png"
     },
     {
-        "merged": "C:\\Users\\hp\\.gradle\\daemon\\8.9\\com.example.petpal.app-debug-4:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\hp\\.gradle\\daemon\\8.9\\com.example.petpal.app-main-6:\\mipmap-xxhdpi\\ic_launcher_round.webp"
+        "merged": "com.example.petpal.app-debug-4:/mipmap-anydpi_ic_launcher.xml.flat",
+        "source": "com.example.petpal.app-main-6:/mipmap-anydpi/ic_launcher.xml"
     },
     {
-        "merged": "C:\\Users\\hp\\.gradle\\daemon\\8.9\\com.example.petpal.app-debug-4:\\drawable_topdesign1.png.flat",
-        "source": "C:\\Users\\hp\\.gradle\\daemon\\8.9\\com.example.petpal.app-main-6:\\drawable\\topdesign1.png"
+        "merged": "com.example.petpal.app-debug-4:/layout_app_bar_scaffold.xml.flat",
+        "source": "com.example.petpal.app-main-6:/layout/app_bar_scaffold.xml"
     },
     {
-        "merged": "C:\\Users\\hp\\.gradle\\daemon\\8.9\\com.example.petpal.app-debug-4:\\drawable_ic_launcher_background.xml.flat",
-        "source": "C:\\Users\\hp\\.gradle\\daemon\\8.9\\com.example.petpal.app-main-6:\\drawable\\ic_launcher_background.xml"
+        "merged": "com.example.petpal.app-debug-4:/navigation_mobile_navigation.xml.flat",
+        "source": "com.example.petpal.app-main-6:/navigation/mobile_navigation.xml"
     },
     {
-        "merged": "C:\\Users\\hp\\.gradle\\daemon\\8.9\\com.example.petpal.app-debug-4:\\font_poppins_bold.ttf.flat",
-        "source": "C:\\Users\\hp\\.gradle\\daemon\\8.9\\com.example.petpal.app-main-6:\\font\\poppins_bold.ttf"
+        "merged": "com.example.petpal.app-debug-4:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "com.example.petpal.app-main-6:/mipmap-mdpi/ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\hp\\.gradle\\daemon\\8.9\\com.example.petpal.app-debug-4:\\mipmap-mdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\hp\\.gradle\\daemon\\8.9\\com.example.petpal.app-main-6:\\mipmap-mdpi\\ic_launcher.webp"
+        "merged": "com.example.petpal.app-debug-4:/drawable_topdesign1.png.flat",
+        "source": "com.example.petpal.app-main-6:/drawable/topdesign1.png"
     },
     {
-        "merged": "C:\\Users\\hp\\.gradle\\daemon\\8.9\\com.example.petpal.app-debug-4:\\xml_data_extraction_rules.xml.flat",
-        "source": "C:\\Users\\hp\\.gradle\\daemon\\8.9\\com.example.petpal.app-main-6:\\xml\\data_extraction_rules.xml"
+        "merged": "com.example.petpal.app-debug-4:/font_alata.ttf.flat",
+        "source": "com.example.petpal.app-main-6:/font/alata.ttf"
+    },
+    {
+        "merged": "com.example.petpal.app-debug-4:/mipmap-anydpi_ic_launcher_round.xml.flat",
+        "source": "com.example.petpal.app-main-6:/mipmap-anydpi/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.example.petpal.app-debug-4:/drawable_topdesign2.png.flat",
+        "source": "com.example.petpal.app-main-6:/drawable/topdesign2.png"
+    },
+    {
+        "merged": "com.example.petpal.app-debug-4:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "com.example.petpal.app-main-6:/mipmap-xhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.petpal.app-debug-4:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.example.petpal.app-main-6:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "com.example.petpal.app-debug-4:/drawable_find.png.flat",
+        "source": "com.example.petpal.app-main-6:/drawable/find.png"
+    },
+    {
+        "merged": "com.example.petpal.app-debug-4:/layout_nav_header_scaffold.xml.flat",
+        "source": "com.example.petpal.app-main-6:/layout/nav_header_scaffold.xml"
+    },
+    {
+        "merged": "com.example.petpal.app-debug-4:/drawable_ic_menu_gallery.xml.flat",
+        "source": "com.example.petpal.app-main-6:/drawable/ic_menu_gallery.xml"
+    },
+    {
+        "merged": "com.example.petpal.app-debug-4:/layout_fragment_gallery.xml.flat",
+        "source": "com.example.petpal.app-main-6:/layout/fragment_gallery.xml"
+    },
+    {
+        "merged": "com.example.petpal.app-debug-4:/drawable_cat.png.flat",
+        "source": "com.example.petpal.app-main-6:/drawable/cat.png"
     },
     {
         "merged": "com.example.petpal.app-debug-4:/drawable_notfind.png.flat",
         "source": "com.example.petpal.app-main-6:/drawable/notfind.png"
     },
     {
-        "merged": "C:\\Users\\hp\\.gradle\\daemon\\8.9\\com.example.petpal.app-debug-4:\\mipmap-xhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\hp\\.gradle\\daemon\\8.9\\com.example.petpal.app-main-6:\\mipmap-xhdpi\\ic_launcher.webp"
+        "merged": "com.example.petpal.app-debug-4:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.petpal.app-main-6:/mipmap-hdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\hp\\.gradle\\daemon\\8.9\\com.example.petpal.app-debug-4:\\drawable_find.png.flat",
-        "source": "C:\\Users\\hp\\.gradle\\daemon\\8.9\\com.example.petpal.app-main-6:\\drawable\\find.png"
+        "merged": "com.example.petpal.app-debug-4:/font_kumar_one.ttf.flat",
+        "source": "com.example.petpal.app-main-6:/font/kumar_one.ttf"
     },
     {
-        "merged": "C:\\Users\\hp\\.gradle\\daemon\\8.9\\com.example.petpal.app-debug-4:\\xml_backup_rules.xml.flat",
-        "source": "C:\\Users\\hp\\.gradle\\daemon\\8.9\\com.example.petpal.app-main-6:\\xml\\backup_rules.xml"
+        "merged": "com.example.petpal.app-debug-4:/drawable_ic_menu_slideshow.xml.flat",
+        "source": "com.example.petpal.app-main-6:/drawable/ic_menu_slideshow.xml"
     },
     {
-        "merged": "C:\\Users\\hp\\.gradle\\daemon\\8.9\\com.example.petpal.app-debug-4:\\drawable_ic_launcher_foreground.xml.flat",
-        "source": "C:\\Users\\hp\\.gradle\\daemon\\8.9\\com.example.petpal.app-main-6:\\drawable\\ic_launcher_foreground.xml"
+        "merged": "com.example.petpal.app-debug-4:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.petpal.app-main-6:/mipmap-mdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\hp\\.gradle\\daemon\\8.9\\com.example.petpal.app-debug-4:\\drawable_botdesign1.png.flat",
-        "source": "C:\\Users\\hp\\.gradle\\daemon\\8.9\\com.example.petpal.app-main-6:\\drawable\\botdesign1.png"
+        "merged": "com.example.petpal.app-debug-4:/xml_backup_rules.xml.flat",
+        "source": "com.example.petpal.app-main-6:/xml/backup_rules.xml"
     },
     {
-        "merged": "C:\\Users\\hp\\.gradle\\daemon\\8.9\\com.example.petpal.app-debug-4:\\font_kumar_one.ttf.flat",
-        "source": "C:\\Users\\hp\\.gradle\\daemon\\8.9\\com.example.petpal.app-main-6:\\font\\kumar_one.ttf"
+        "merged": "com.example.petpal.app-debug-4:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.petpal.app-main-6:/mipmap-xhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\hp\\.gradle\\daemon\\8.9\\com.example.petpal.app-debug-4:\\mipmap-xxhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\hp\\.gradle\\daemon\\8.9\\com.example.petpal.app-main-6:\\mipmap-xxhdpi\\ic_launcher.webp"
+        "merged": "com.example.petpal.app-debug-4:/drawable_topcat.png.flat",
+        "source": "com.example.petpal.app-main-6:/drawable/topcat.png"
     },
     {
-        "merged": "C:\\Users\\hp\\.gradle\\daemon\\8.9\\com.example.petpal.app-debug-4:\\drawable_topcat.png.flat",
-        "source": "C:\\Users\\hp\\.gradle\\daemon\\8.9\\com.example.petpal.app-main-6:\\drawable\\topcat.png"
+        "merged": "com.example.petpal.app-debug-4:/menu_activity_scaffold_drawer.xml.flat",
+        "source": "com.example.petpal.app-main-6:/menu/activity_scaffold_drawer.xml"
     },
     {
-        "merged": "C:\\Users\\hp\\.gradle\\daemon\\8.9\\com.example.petpal.app-debug-4:\\drawable_botcat.png.flat",
-        "source": "C:\\Users\\hp\\.gradle\\daemon\\8.9\\com.example.petpal.app-main-6:\\drawable\\botcat.png"
+        "merged": "com.example.petpal.app-debug-4:/layout_content_scaffold.xml.flat",
+        "source": "com.example.petpal.app-main-6:/layout/content_scaffold.xml"
     },
     {
-        "merged": "C:\\Users\\hp\\.gradle\\daemon\\8.9\\com.example.petpal.app-debug-4:\\font_alata.ttf.flat",
-        "source": "C:\\Users\\hp\\.gradle\\daemon\\8.9\\com.example.petpal.app-main-6:\\font\\alata.ttf"
+        "merged": "com.example.petpal.app-debug-4:/drawable_title_logo.png.flat",
+        "source": "com.example.petpal.app-main-6:/drawable/title_logo.png"
+    },
+    {
+        "merged": "com.example.petpal.app-debug-4:/font_poppins_bold.ttf.flat",
+        "source": "com.example.petpal.app-main-6:/font/poppins_bold.ttf"
+    },
+    {
+        "merged": "com.example.petpal.app-debug-4:/drawable_botdesign2.png.flat",
+        "source": "com.example.petpal.app-main-6:/drawable/botdesign2.png"
+    },
+    {
+        "merged": "com.example.petpal.app-debug-4:/drawable_botcat.png.flat",
+        "source": "com.example.petpal.app-main-6:/drawable/botcat.png"
+    },
+    {
+        "merged": "com.example.petpal.app-debug-4:/menu_scaffold.xml.flat",
+        "source": "com.example.petpal.app-main-6:/menu/scaffold.xml"
+    },
+    {
+        "merged": "com.example.petpal.app-debug-4:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.petpal.app-main-6:/mipmap-xxhdpi/ic_launcher_round.webp"
     }
 ]
