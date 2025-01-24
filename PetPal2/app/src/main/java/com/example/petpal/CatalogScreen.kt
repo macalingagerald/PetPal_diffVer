@@ -164,4 +164,4 @@ fun CatalogScreenPreview() {
     MaterialTheme {
         CatalogScreen()
     }
-} 
+}
