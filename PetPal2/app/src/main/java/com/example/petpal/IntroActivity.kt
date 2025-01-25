@@ -1,5 +1,6 @@
 package com.example.petpal
 
+import android.content.Intent
 import android.os.Bundle
 import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
@@ -42,14 +43,18 @@ class IntroActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContent{
-            WelcomeScreen()
+            WelcomeScreen(onLoginClick = {
+                val intent = Intent(this, Login::class.java)
+            },
+                onSignUpClick = {
+                    val intent = Intent(this, Register::class.java)
+                })
         }
     }
 }
 
 @Composable
-@Preview(showBackground = true)
-fun WelcomeScreen() {
+fun WelcomeScreen(onLoginClick: () -> Unit, onSignUpClick: () -> Unit) {
     Column(
         modifier = Modifier
             .fillMaxSize()
@@ -86,7 +91,7 @@ fun WelcomeScreen() {
             horizontalAlignment = Alignment.CenterHorizontally
         ) {
             OutlinedButton(
-                onClick = {},
+                onClick = onLoginClick,
                 modifier = Modifier
                     .fillMaxWidth()
                     .height(55.dp),
@@ -104,7 +109,7 @@ fun WelcomeScreen() {
             Spacer(modifier = Modifier.height(15.dp))
 
             OutlinedButton(
-                onClick = {},
+                onClick = onSignUpClick,
                 modifier = Modifier
                     .fillMaxWidth()
                     .height(55.dp),
