@@ -12,6 +12,7 @@ drawable botcat
 drawable botdesign1
 drawable botdesign2
 drawable cat
+drawable google
 drawable ic_launcher_background
 drawable ic_launcher_foreground
 drawable title
