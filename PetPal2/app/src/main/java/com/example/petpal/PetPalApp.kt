@@ -14,6 +14,8 @@ import androidx.navigation.NavHostController
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
+import com.example.petpal.screens.AdoptionsScreen
+import com.example.petpal.screens.ServicesScreen
 
 sealed class Screen(val route: String, val icon: ImageVector, val label: String) {
     object Catalog : Screen("catalog", Icons.Default.Home, "Catalog")

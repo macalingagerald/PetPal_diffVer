@@ -48,9 +48,9 @@ data class NavigationItem<ImageVector>(
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContent {
+        setContent {    1
             PetPalTheme {
-                AppNavigation()
+                PetPalApp()
                 val items = listOf(
                     NavigationItem(
                         title = "Home",
@@ -154,18 +154,19 @@ fun AppNavigation() {
 
     NavHost(
         navController = navController,
-        startDestination = "login", // Ensure this is correctly set
+        startDestination = "Login",
 
     )
     {
-        composable("login") {
+        composable("Login") {
             LoginScreen(
                 onLoginSuccess = {
                     navController.navigate("catalog")
                 }
             )
         }
-        composable("catalog") { CatalogScreen() }
+        composable("catalog") {
+            CatalogScreen() }
     }
 }
 
